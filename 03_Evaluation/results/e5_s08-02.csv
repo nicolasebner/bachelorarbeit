@@ -1,0 +1,8 @@
+,Model,ROC AUC,F1,Params
+0,LogisticRegression(),0.7050710238771344,0.201159994341491,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200}"
+1,KNeighborsClassifier(),0.7016335726700578,0.039712716518800165,"{'n_neighbors': 55, 'weights': 'uniform'}"
+2,DecisionTreeClassifier(),0.5317141656125253,0.13716160787530762,"{'criterion': 'gini', 'max_depth': None}"
+3,RandomForestClassifier(),0.6928303428877395,0.12526539278131635,"{'max_depth': 10, 'n_estimators': 200}"
+4,GradientBoostingClassifier(),0.6979059595615776,0.16855891082112404,"{'learning_rate': 0.05, 'n_estimators': 400}"
+5,DummyClassifier(),0.5048163630529543,0.0647927584564078,{'strategy': 'stratified'}
+mean,,0.6389952379436649,0.12277523013240783,
